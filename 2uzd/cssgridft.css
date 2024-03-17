@@ -1,0 +1,169 @@
+.nuotrauku-lentele {
+    height: 98vh;
+    width: 98vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+    font-size: 22px;
+}
+
+.ftkonteineris {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ftkonteineris:hover::before {
+    content: "";
+    background-color: black;
+    opacity: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.ftkonteineris:hover::after {
+    content: "";
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.nuotrauka {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.v{
+    grid-area: 1/ 1/ 2/ 2;
+}
+.v:hover::after{
+    content: 'Labas';
+}
+.d{
+    grid-area: 1/ 2/ 2/ 3;
+}
+.d:hover::after{
+    content: 'Sveiki';
+}
+.t{
+    grid-area: 2/ 1/ 3/ 3;
+}
+.t:hover::after{
+    content: 'Grazumelis';
+}
+.k{
+    grid-area: 3/ 1/ 5/ 3;
+}
+.k:hover::after{
+    content: 'Sveiki';
+}
+.p{
+    grid-area: 5/ 1/ 6/ 2;
+}
+.p:hover::after{
+    content: 'Taskas';
+}
+.s{
+    grid-area: 5/ 2/ 6/ 3;
+}
+.s:hover::after{
+    content: 'Labas';
+}
+.se{
+    grid-area: 1/ 3/ 2/ 4;
+}
+.se:hover::after{
+    content: 'Sveiki';
+}
+.a{
+    grid-area: 1/ 4/ 3/ 5;
+}
+.a:hover::after{
+    content: '8';
+}
+.d9{
+    grid-area: 2/ 3/ 4/ 4;
+}
+.d9:hover::after{
+    content: 'Smile';
+}
+.de{
+    grid-area: 3/ 4/ 4/ 5;
+}
+.de:hover::after{
+    content: 'Happy';
+}
+.vi{
+    grid-area: 4/ 3/ 6/ 5;
+}
+.vi:hover::after{
+    content: 'Valioo';
+}
+.dv{
+    grid-area: 1/ 5/ 2/ 6;
+}
+.dv:hover::after{
+    content: 'Vavava';
+}
+.tr{
+    grid-area: 1/ 6/ 2/ 8;
+}
+.tr:hover::after{
+    content: 'Kontentas';
+}
+.ke{
+    grid-area: 2/ 5/ 4/ 7;
+}
+.ke:hover::after{
+    content: '14';
+}
+.pe{
+    grid-area: 4/ 5/ 6/ 6;
+}
+.pe:hover::after{
+    content: '15';
+}
+.sesiolika{
+    grid-area: 4/ 6/ 5/ 7;
+}
+.sesiolika:hover::after{
+    content: 'Sweet';
+}
+.septyniolika{
+    grid-area: 5/ 6/ 6/ 7;
+}
+.septyniolika:hover::after{
+    content: 'Grazu?';
+}
+.ast{
+    grid-area: 1/ 8/ 3/ 9;
+}
+.ast:hover::after{
+    content: 'Papaja';
+}
+.devyniolika{
+    grid-area: 2/ 7/ 3/ 8;
+}
+.devyniolika:hover::after{
+    content: '10/10';
+}
+.dvid{
+    grid-area: 3/ 7/ 6/ 9;
+}
+.dvid:hover::after{
+    content: 'Bsk bsk';
+}
